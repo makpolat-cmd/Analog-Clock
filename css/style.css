@@ -1,0 +1,85 @@
+body {
+  background: rgb(43, 43, 43);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+
+}
+
+
+.clock {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  border: solid 5px rgb(252, 255, 55);
+  position: relative;
+}
+
+
+#seconds-hand{
+  position: absolute;
+  height: 130px;
+  width: 2px;
+  background-color: rgb(5, 204, 21);
+  left: 149px;
+  bottom: 149px;
+  opacity: 50%;
+  transform-origin: 0 100%;
+}
+
+#minutes-hand{
+  height: 100px;
+  width: 2px;
+  background-color: rgb(196, 136, 6);
+  position: absolute;
+  left: 149px;
+  bottom: 149px;
+  transform-origin: 0 100%;
+}
+
+#hours-hand{
+  height: 80px;
+  width: 4px;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  left: 148px;
+  bottom: 148px;
+  transform-origin: 0 100%;
+}
+
+#mydot{
+  
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: rgb(252, 255, 55);
+  position: absolute;
+  margin-top: 137px;
+  margin-left: 144px;
+}
+
+.text1 {
+  position: relative;
+  text-align: center;
+  color: #e98208;
+  font-size: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 7px;
+}
+
+.text2 {
+  position: relative;
+  text-align: center;
+  color: #e98208;
+  font-size: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 7px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+ img {
+     margin-top: 120px;
+     width: 17%;
+}
